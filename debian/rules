@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	rimraf dist/ dist.es2015/
+	tsc
+	tsc -P tsconfig.es2015.json
+
+override_dh_installchangelogs:
+	dh_installchangelogs -k History.md

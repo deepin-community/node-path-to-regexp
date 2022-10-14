@@ -1,0 +1,109 @@
+node-path-to-regexp (6.2.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 6.2.0-1.
+
+  [ Yadd ]
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Uploaders: replace Leo Iannacone by myself, thanks for your work!
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Sun, 10 Oct 2021 14:53:15 +0200
+
+node-path-to-regexp (6.2.0-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Apply multi-arch hints
+  * New upstream version 6.2.0
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 29 Oct 2020 14:21:46 +0100
+
+node-path-to-regexp (6.1.0-3) unstable; urgency=medium
+
+  * Use pkg-js-tools auto link during build
+  * Declare compliance with policy 4.5.0
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 01 May 2020 09:04:48 +0200
+
+node-path-to-regexp (6.1.0-2) unstable; urgency=medium
+
+  * Back to unstable after successful tests
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 16 Dec 2019 22:07:04 +0100
+
+node-path-to-regexp (6.1.0-1) experimental; urgency=medium
+
+  * New upstream version 6.1.0
+  * Replace build modules
+  * Update copyright
+  * Update custom test
+  * Reproduce upstream build using rimraf and tsc
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 04 Dec 2019 23:09:24 +0100
+
+node-path-to-regexp (3.1.0-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.4.1
+  * New upstream version 3.1.0
+  * Add "Rules-Requires-Root: no"
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 21 Oct 2019 22:51:44 +0200
+
+node-path-to-regexp (3.0.0-2) unstable; urgency=medium
+
+  * Reorder copyrights
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Remove useless lintian overrides
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:43:36 +0200
+
+node-path-to-regexp (3.0.0-1) unstable; urgency=medium
+
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Change priority to optional
+  * Change homepage to https://github.com/pillarjs/path-to-regexp
+  * New upstream version 3.0.0
+  * Add myself to uploaders
+  * Add upstream/metadata
+  * Add tests based on pkg-js-tools
+  * Ignore upstream .gitignore
+  * Update VCS fields to salsa
+  * Add make-error and ts-node build components
+  * Update debian/copyright
+  * Add lintian-overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 06 Feb 2019 23:40:43 +0100
+
+node-path-to-regexp (1.0.1-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.0.1
+  * Bump Standard-Version 3.9.6
+  * debian/copyright:
+    - release debian files with the same upstream license: Expat
+    - removed old author - following upstream
+    - add Upstream-Contact
+  * debian/control:
+    - add nodejs and mocha as builddep
+    - move to pkg-javascript
+  * debian/rules: run upstream tests
+  * Add autopkgtest suite
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sat, 11 Oct 2014 18:22:38 +0200
+
+node-path-to-regexp (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #744770)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Wed, 16 Apr 2014 15:38:57 +0200

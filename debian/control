@@ -1,0 +1,30 @@
+Source: node-path-to-regexp
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>,
+           Yadd <yadd@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               chai <!nocheck>,
+               mocha <!nocheck>,
+               node-rimraf,
+               node-typescript,
+               node-typescript-types,
+               node-util,
+               dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-path-to-regexp
+Vcs-Git: https://salsa.debian.org/js-team/node-path-to-regexp.git
+Homepage: https://github.com/pillarjs/path-to-regexp
+Rules-Requires-Root: no
+
+Package: node-path-to-regexp
+Architecture: all
+Depends: ${misc:Depends},
+Multi-Arch: foreign
+Description: express style path to RegExp utility
+ Turn an Express-style path string such as `/user/:name`
+ into a regular expression.
+ .
+ Node.js is an event-based server-side JavaScript engine.
