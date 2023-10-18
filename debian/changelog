@@ -1,3 +1,19 @@
+node-path-to-regexp (6.2.1-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.6.1
+  * Clean build modules
+  * New upstream version 6.2.1
+  * Update build
+
+ -- Yadd <yadd@debian.org>  Thu, 19 May 2022 10:41:34 +0200
+
+node-path-to-regexp (6.2.0-3) unstable; urgency=medium
+
+  * Fix filenamemangle
+  * Drop dependency to deprecated node-typescript-types (Closes: #979779)
+
+ -- Yadd <yadd@debian.org>  Sun, 01 May 2022 13:51:26 +0200
+
 node-path-to-regexp (6.2.0-2) unstable; urgency=medium
 
   [ Debian Janitor ]
