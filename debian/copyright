@@ -12,10 +12,6 @@ Copyright: 2014, Leo Iannacone <l3on@ubuntu.com>
  2019, Yadd <yadd@debian.org>
 License: Expat
 
-Files: debian/build_modules/@types/*
-Copyright: Microsoft Corporation
-License: Expat
-
 License: Expat
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation files

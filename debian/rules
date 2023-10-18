@@ -8,8 +8,7 @@
 	dh $@
 
 override_dh_auto_build:
-	rimraf dist/ dist.es2015/
-	tsc
+	tsc -P tsconfig.build.json
 	tsc -P tsconfig.es2015.json
 
 override_dh_installchangelogs:

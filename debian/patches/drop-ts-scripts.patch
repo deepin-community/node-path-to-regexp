@@ -1,0 +1,23 @@
+Description: drop ts-scripts dependency
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2022-05-19
+
+--- a/tsconfig.json
++++ b/tsconfig.json
+@@ -1,7 +1,14 @@
+ {
+-  "extends": "@borderless/ts-scripts/configs/tsconfig.json",
+   "compilerOptions": {
++    "declaration": true,
++    "esModuleInterop": true,
++    "forceConsistentCasingInFileNames": true,
++    "inlineSources": true,
++    "isolatedModules": true,
+     "target": "es5",
++    "skipLibCheck": true,
++    "sourceMap": true,
++    "strict": true,
+     "lib": ["es5"],
+     "rootDir": "src",
+     "outDir": "dist",
