@@ -1,3 +1,11 @@
+node-path-to-regexp (6.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.0
+  * New upstream version (Closes: CVE-2024-45296)
+
+ -- Yadd <yadd@debian.org>  Sat, 14 Sep 2024 16:14:48 +0400
+
 node-path-to-regexp (6.2.1-1) unstable; urgency=medium
 
   * Declare compliance with policy 4.6.1
