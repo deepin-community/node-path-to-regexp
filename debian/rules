@@ -9,7 +9,6 @@
 
 override_dh_auto_build:
 	tsc -P tsconfig.build.json
-	tsc -P tsconfig.es2015.json
 
 override_dh_installchangelogs:
 	dh_installchangelogs -k History.md
