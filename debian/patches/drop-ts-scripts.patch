@@ -1,7 +1,7 @@
 Description: drop ts-scripts dependency
 Author: Yadd <yadd@debian.org>
 Forwarded: not-needed
-Last-Update: 2022-05-19
+Last-Update: 2025-10-25
 
 --- a/tsconfig.json
 +++ b/tsconfig.json
@@ -14,10 +14,10 @@ Last-Update: 2022-05-19
 +    "forceConsistentCasingInFileNames": true,
 +    "inlineSources": true,
 +    "isolatedModules": true,
-     "target": "es5",
+     "target": "ES2015",
 +    "skipLibCheck": true,
 +    "sourceMap": true,
 +    "strict": true,
-     "lib": ["es5"],
+     "lib": ["ES2015"],
      "rootDir": "src",
      "outDir": "dist",
