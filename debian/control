@@ -3,7 +3,6 @@ Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.deb
 Uploaders: Yadd <yadd@debian.org>
 Section: javascript
 Testsuite: autopkgtest-pkg-nodejs
-Priority: optional
 Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs (>= 0.14.22~)
  , chai <!nocheck>
@@ -13,11 +12,10 @@ Build-Depends: debhelper-compat (= 13)
  , node-rimraf
  , node-typescript
  , node-util
-Standards-Version: 4.6.1
+Standards-Version: 4.7.4
 Vcs-Browser: https://salsa.debian.org/js-team/node-path-to-regexp
 Vcs-Git: https://salsa.debian.org/js-team/node-path-to-regexp.git
 Homepage: https://github.com/pillarjs/path-to-regexp
-Rules-Requires-Root: no
 
 Package: node-path-to-regexp
 Architecture: all

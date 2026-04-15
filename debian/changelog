@@ -1,3 +1,42 @@
+node-path-to-regexp (8.4.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.4
+  * New upstream version 8.4.1
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 31 Mar 2026 12:43:26 +0200
+
+node-path-to-regexp (8.4.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.3
+  * Drop "Priority: optional"
+  * New upstream version
+    (Closes: 1132020, CVE-2026-4923, CVE-2026-4926)
+
+ -- Yadd <yadd@debian.org>  Fri, 27 Mar 2026 07:52:48 +0100
+
+node-path-to-regexp (8.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.2
+  * Drop "Rules-Requires-Root: no"
+  * debian/watch version 5
+  * New upstream version 8.3.0
+  * Refresh patch
+  * Update build
+  * Update test
+
+ -- Yadd <yadd@debian.org>  Sat, 25 Oct 2025 17:24:42 +0200
+
+node-path-to-regexp (6.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.0
+  * New upstream version (Closes: CVE-2024-45296)
+
+ -- Yadd <yadd@debian.org>  Sat, 14 Sep 2024 16:14:48 +0400
+
 node-path-to-regexp (6.2.1-1) unstable; urgency=medium
 
   * Declare compliance with policy 4.6.1

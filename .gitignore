@@ -3,3 +3,5 @@ node_modules/
 coverage/
 dist/
 dist.es2015/
+*.tsbuildinfo
+package-lock.json
